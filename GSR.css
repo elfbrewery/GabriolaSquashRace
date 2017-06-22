@@ -1,0 +1,33 @@
+h1 {font-size: xx-large;  font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center;  }
+h2 {font-size: x-large;    font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center; }
+h3 {font-size: large;       font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center;  }
+h4 {font-size: medium;  font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center; }
+h5 {font-size: small;      font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center; }
+h6 {font-size: x-small;   font-style: normal; font-family: "Arial", sans-serif;
+		text-align: center; }
+
+div  {font-size: large; font-family: "Arial", sans-serif; 
+	 background: #c0ffa0;  color: #000000 } 
+
+body {text-decoration: none; background: #FFFF00; color: #000000; font-family: "Arial", sans-serif;}
+
+a:link		{background: #FFFF00;  color: #0000ff}
+a:visited	{background: #FFFF00;  color: #800080}
+a:hover		{background: #FFFF00;  color: #008080}
+a:active	{background: #FFFF00;  color: #ff0000} 
+
+.images{
+	display: block; max-width:600px; max-height: 800px; margin: auto;
+}
+@media only screen and (max-width: 940px){ /* Tablets*/ 
+  .images{ width:85%; }
+}
+
+@media only screen and (max-width:600px) {  /*  Mobile Phone size         */
+  .images{ width:90%; }
+}
